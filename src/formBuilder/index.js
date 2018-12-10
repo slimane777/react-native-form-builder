@@ -17,7 +17,7 @@ const DefaultErrorComponent = (props) => {
   const theme = props.theme;
   if (attributes.error) {
     return (
-      <Text style={{ color: theme.errorMsgColor }}>
+      <Text style={{ color: theme.errorMsgColor, textAlign: 'center' }}>
         { attributes.errorMsg }
       </Text>
     );
