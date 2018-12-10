@@ -22,7 +22,7 @@ export function autoValidate(field) {
           errorMsg = `${field.label} est requis`;
         } else if (!isEmail(field.value)) {
           error = true;
-          errorMsg = 'Please enter a valid email';
+          errorMsg = 'S\'il vous plaît entrer un email valide';
         }
         break;
       case 'text':
